@@ -1,0 +1,74 @@
+<!doctype html>
+<!--
+    NAMA : RIZAL ABIMANYU
+    KELAS : DICODING (Belajar Membuat Front-End Web untuk Pemula)
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="styleBuku.css">
+    </head>
+    <body>
+        <header class="header">
+            <h2 class="title">Bookshelf Apps</h2>
+        </header>
+        <main>
+            <div class="container1">
+                <div id="dialog" class="dialog" hidden disabled >
+                    <h4 id="dialogText" style="text-align: center"></h4>
+                    <input id="tombolOk" class="submit4" type="submit" value="OK"></br>
+                </div>
+                <div class="container2">
+                    <div class="container3">
+                        <h3>Cari Buku</h3></br>
+                        <form>
+                            <input id="cari" class="input" type="text" placeholder="'Judul Buku' yang ingin dicari">
+                        </form>
+                    </div>
+                    <div class="container4">
+                        <div class="container5">
+                            <h3>Masukkan Buku Baru</h3></br>
+                            <form id="form">
+                                <p class="label">Judul</p ></br>
+                                <input id="judul" class="input2" type="text" placeholder="Contoh: 'Dark Room'"></br>
+                                <p class="label">Penulis</p ></br>
+                                <input id="penulis" class="input2" type="text" placeholder="Contoh: 'Hiroki Mosaza'"></br>
+                                <p class="label">Tahun</p ></br>
+                                <input id="tahun" class="input2" type="text" placeholder="Contoh: '2002'"></br>
+                                <p class="label">Selesai dibaca </p>
+                                <input id="ceklis" type="checkbox" class="checkbox">
+                                <input id="tombolTambahBuku" class="submit2" type="submit" value="Masukkan Buku ke Rak"></br>
+                            </form>
+                        </div>
+                        <!-- BELUM SELESAI DIBACA-->
+                        <div class="container6">
+                            <h3>Belum selesai dibaca</h3></br>
+                            <div id="belumSelesai" class="container7">
+                            </div>
+                        </div>
+                        <!-- SELESAI DIBACA-->
+                        <div class="container6">
+                            <h3>Selesai dibaca</h3></br>
+                            <div id="selesai" class="container7">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div id="container4">
+                <div class="containerC">
+                    <div class="containerR2">
+                        <div class="containerB3"><a href="https://www.facebook.com/Arjunkoko.202/"><img src="image's/symbol's/fb.png" class="profil2"></img></a></div>
+                        <div class="containerB3"><a href="https://www.instagram.com/rizalabimanyu_202/"><img src="image's/symbol's/ig.png" class="profil2"></img></a></div>
+                        <div class="containerB3"><a href="https://wa.me/081239242567"><img src="image's/symbol's/wa.png" class="profil2"></img></a></div>
+                    </div>
+                    <div class="containerR">
+                        <div class="containerB copyright">Copyright © Rizal Abimanyu - 2022. All Right Reserved</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="codeBuku.js"></script>
+    </body>
+</html>
